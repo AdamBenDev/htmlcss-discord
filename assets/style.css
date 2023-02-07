@@ -22,7 +22,7 @@ body {
 
 /*HEADER*/
 header {
-  background-color: blue;
+  background-color: #3161e0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
@@ -64,6 +64,10 @@ p{
   font-size: large;
 }
 
+.stars img{
+  height: 200px;
+  width: 200px;
+}
 /*PRIMO BLOCCO*/
 
 .first-block-container {
@@ -115,6 +119,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .flex-container-main {
@@ -130,20 +135,24 @@ p{
   margin: 1%;
 }
 
+.column{
+  flex-direction: row-reverse;
+}
 
 .light-blue-column img{
   height: 400px;
   flex-basis: 40%;
 }
 
-.light-pink-column {
+.light-pink-column  {
   margin: 2.5rem;
-  flex-basis: 90%;
-  border: solid;
   text-align: left;
 
 }
 
+.row{
+  flex-direction: row-reverse;
+}
 /*TERZO BLOCCO*/
 
 .white-bg {
@@ -153,11 +162,21 @@ p{
 .grey-bg {
   background-color: lightgrey;
 }
-
+.larger-section{
+  height: 700px;
+}
 .green-column {
-  flex-basis: 100%;
-  background-color: green;
-  border: 2px dashed;
+  height: 600px; 
+  align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+}
+
+.lg img{
+  height: 500px;
+  margin-left: 90px;
+}
+
+.text{
+  text-align: center;
 }
 
 /*FOOTER*/
