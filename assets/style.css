@@ -20,17 +20,22 @@ body {
  
 .jumbotron{
   background-image: url(./img/jumbo.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  height: 400px;
+  width: content;
 }
 
 /*HEADER*/
 header {
-  background-color: skyblu;
+  background-color: skyblue;
   min-height: 100px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  position: relative;
 }
 
 .navbar > * {
@@ -43,12 +48,17 @@ header {
   background-color: yello;
   min-width: 50rem;
   height: 40px;
-  justify-content: space-evenly;
-  border: 2px dashed;
+  justify-content: space-between;
 }
 
 .navbar-button {
+  background-color: black;
   text-align: right;
+  border-radius: 30%;
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 15px;
 }
 
 ul {
@@ -58,17 +68,21 @@ ul {
 }
 
 li {
-  margin-right: 2px;
+  margin-right: 10%;
+  font-size: larger;
 }
 
 /*PRIMO BLOCCO*/
 
 .first-block-container {
-  background-color: darkblu;
-  min-height: 250px;
-  display: flex;
+  background-image: url(./img/jumbo.png);
+  background-size: cover;
+  background-size: content;
+  background-repeat: no-repeat;
+  height: 400px;
   justify-content: center;
-  align-items: center;
+  padding: 50px;
+  float: left;
 }
 
 .first-block-content {
