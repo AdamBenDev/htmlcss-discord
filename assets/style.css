@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Generics */
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+
+  /*HEADER*/
+header{
+    background-color: skyblue;
+    min-height: 100px;
+    display: flex;
+}
+
+.navbar > *{
+    flex-basis: 20%;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    background-color: yellow;
+    min-width: 50rem;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 2px dashed;
+}
+
+.navbar-button{
+    text-align: right;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin-right: 2px;
+}
+
+/*PRIMO BLOCCO*/
+
+.first-block-container{
+    background-color: darkblue;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-block-content{
+    background-color: purple;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    border:2px dashed;
+}
+
+/*SECONDO BLOCCO*/
+
+.main-background{
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-main{
+    min-width: 900px;
+    height: 250px;
+    display: flex;
+}
+
+.flex-container-main2{
+    min-width: 900px;
+    height: 500px;
+    display: flex;
+    margin: 1%;
+}
+
+.light-blue-column {
+    flex-basis: 60%;
+    background-color: cornflowerblue;
+    border: 2px dashed;
+  }
+
+  .light-pink-column {
+    flex-basis: 40%;
+    background-color: lightpink;
+    border: 2px dashed;
+  }
+
+  /*TERZO BLOCCO*/
+
+  .white-bg{
+    background-color: white;
+  }
+
+  .grey-bg{
+    background-color: lightgrey;
+  }
+
+  .green-column{
+    flex-basis:100%;
+    background-color: green;
+    border: 2px dashed;
+  }
+
+  /*FOOTER*/
+  footer{
+    background-color: black;
+    min-height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .green{
+    flex-basis: calc(70% / 4);
+    background-color: aquamarine;
+    border: 2px dashed white;
+}
+
+.black-bg{
+    background-color: black;
+}
+.rose-column{
+    flex-basis: 30%;
+    background-color: salmon;
+    border: 2px dashed white;
+}
+
+/*BOTTOM-FOOTER*/
+
+.flex-container-footer{
+    display: flex;
+    background-color: aquamarine;
+    height: 50px;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer,.btn-footer{
+    background-color: salmon;
+    height: 25px;
+    border: 2px dashed;
+}
