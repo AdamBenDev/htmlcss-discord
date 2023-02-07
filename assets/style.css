@@ -31,7 +31,6 @@ header {
 
 .navbar {
   display: flex;
-  background-color: yello;
   min-width: 50rem;
   height: 40px;
   justify-content: space-between;
@@ -98,7 +97,6 @@ p{
   border-radius: 30px;
   height: 30%;
   width: 40%;
-  margin-right: 10p;
   font-size: large;
   white-space:nowrap
 }
@@ -160,15 +158,12 @@ p{
 }
 
 .grey-bg {
-  background-color: lightgrey;
+  background-color: #f6f6f6;
 }
 .larger-section{
-  height: 700px;
-}
-.green-column {
-  height: 600px; 
-  align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-}
+  height: 800px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
 
 .lg img{
   height: 500px;
@@ -177,8 +172,32 @@ p{
 
 .text{
   text-align: center;
+  align-items: center;
 }
 
+.word-bg {
+  background-image: url(./img/stars.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 10px;
+  width: 40%;
+}
+
+
+
+.Mac{
+  border-radius: 40px;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  padding: 5px;
+  margin-top:30px;
+  background-color: #8ea1e1;
+  color: white;
+  white-space: nowrap;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /*FOOTER*/
 footer {
   background-color: black;
