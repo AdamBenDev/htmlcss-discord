@@ -6,7 +6,7 @@
 
 /* Generics */
 body {
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -24,13 +24,9 @@ header {
   background-color: blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  justify-content: column;
 }
 
-.navbar > * {
-  flex-basis: 20%;
-  padding: 10px;
-}
+
 
 .navbar {
   display: flex;
@@ -41,11 +37,11 @@ header {
 }
 
 .navbar-button {
-  background-color: black;
+  background-color: white;
   text-align: right;
-  border-radius: 30%;
+  border-radius: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
+  color: black;
   padding: 15px;
 }
 
@@ -59,7 +55,9 @@ li {
   margin-right: 10%;
   font-size: larger;
 }
-
+h1{
+  padding:2px;
+}
 p{
   padding:20px;
   font-size: large;
@@ -69,13 +67,13 @@ p{
 
 .first-block-container {
   background-image: url(./img/jumbo.png);
-  background-size: contain;
   background-repeat: no-repeat;
   height: 400px;
   justify-content: center;
   padding: 50px;
-  background-size: cover;
-  display: flex;  
+  display: flex;
+  background-size: contain;
+  background-size: cover; 
 }
 
 .first-block-content {
@@ -111,7 +109,7 @@ p{
 /*SECONDO BLOCCO*/
 
 .main-background {
-  min-height: 300px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,16 +128,19 @@ p{
   margin: 1%;
 }
 
-.light-blue-column {
-  flex-basis: 60%;
-  background-color: cornflowerblue;
-  border: 2px dashed;
+
+.light-blue-column img{
+  height: 300px;
+  flex-basis: 40%;
+  float: left;
 }
 
 .light-pink-column {
-  flex-basis: 40%;
-  background-color: lightpink;
-  border: 2px dashed;
+  flex-basis: 60%;
+  text-align: left;
+  white-space:wrap;
+  border: solid;
+
 }
 
 /*TERZO BLOCCO*/
